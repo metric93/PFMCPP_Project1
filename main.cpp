@@ -33,89 +33,113 @@ arm.rotateCounterClockwise(); //demonstrates CamelCase
 
 /*
  1)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:      car
+ action 1:  the car starts
+ action 2:  the car turns left
+ action 3:  the car stops
  */
-
+car.start();
+car.turnLeft();
+car.stop()
 
 /*
  2)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:      bird
+ action 1:  the bird flies
+ action 2:  the bird sings
+ action 3:  the bird sleeps
  */
+bird.fly();
+bird.sing();
+bird.sleep();
 
 /*
  3)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:     synth
+ action 1: the synth increases its pitch
+ action 2: the synth plays a note
+ action 3: the synth enables reverb
  */
-
+ synth.increasePitch();
+ synth.playNote();
+ synth.enableReverb();
 
 /*
  4)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:      drum
+ action 1:  the drum is hitting louder
+ action 2:  the drum is hitting quiet
+ action 3:  the drum size is increasing
  */
+drum.hitLoud();
+drum.hitQuiet();
+drum.increaseSize();
 
 /*
  5)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:      food
+ action 1:  the food gets cold
+ action 2:  the food gets heated
+ action 3:  the food turns bad
  */
-
+food.cold();
+food.heated();
+food.turnBad();
 
 /*
  6)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:      mediaplayer
+ action 1:  the mediaplayer starts playback
+ action 2:  the mediaplayer stops playaback
+ action 3:  the mediaplayer selects song
  */
+mediaplayer.playbackStart();
+mediaplayer.playbackStop();
+mediaplayer songSelect();
 
 /*
  7)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:      train
+ action 1:  the train departs
+ action 2:  the train arrives
+ action 3:  the train opens its doors
  */
-
+train.depart();
+train.arrive();
+train.openDoors();
 
 /*
  8)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:      clock
+ action 1:  the clock is ticking
+ action 2:  the clock is ringing
+ action 3:  the clock is getting muted
  */
+clock.ticking();
+clock.ringing();
+clock.mute();
 
 /*
  9)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:      phone
+ action 1:  the phone is charging
+ action 2:  the phone is lost
+ action 3:  the phone is ringing
  */
-
+phone.charge();
+phone.lost();
+phone.ring();
 
 /*
  10)
- Noun:
- action 1:
- action 2:
- action 3:
+ Noun:      distortion
+ action 1:  the distortion is set to sound soft
+ action 2:  the distortion is set to sound warm
+ action 3:  the distortion is set to sound heavy
  */
-
+distortion.setSoft();
+distortion.setWarm();
+distortion.setHeavy();
 
 #endif
 
